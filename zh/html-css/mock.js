@@ -4,7 +4,7 @@ const container = document.querySelector('.container');
 Array.from({ length: 10 })
     .map((_, i) => {
         const tmp = `This is the description`;
-        const description = Array.from({ length: 20 }).map(() => tmp).join(' ');
+        const description = Array.from({ length: 9 }).map(() => tmp).join(' ');
 
         return {
             title: `Title ${i + 1}`,
